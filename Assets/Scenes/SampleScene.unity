@@ -266,13 +266,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.38302222, y: -0.38302222, z: 0.17860618, w: 0.82139385}
-  m_LocalPosition: {x: 1.29, y: 1.45, z: -1.03}
+  m_LocalRotation: {x: 0.39996335, y: -0.24242312, z: 0.13028783, w: 0.8742342}
+  m_LocalPosition: {x: 1.03, y: 2.42, z: -1.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -50, z: 0}
+  m_LocalEulerAnglesHint: {x: 49.684002, y: -29.607002, z: 3.002}
 --- !u!1 &1611965203
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,8 +305,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PointPrefab: {fileID: 7545658798830263434, guid: e2124691258864da1b8e9140806de2c0,
     type: 3}
-  Function: 7
-  Resolution: 50
+  Function: 9
+  Resolution: 100
 --- !u!4 &1611965205
 Transform:
   m_ObjectHideFlags: 0

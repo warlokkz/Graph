@@ -9,5 +9,6 @@
 	WeirdWave,
 	Cylinder,
 	WobblyCylinder,
-	TwistingStar
+	TwistingStar,
+	Sphere
 }

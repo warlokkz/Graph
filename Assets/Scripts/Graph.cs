@@ -35,7 +35,8 @@ public class Graph : MonoBehaviour
 		WeirdFunction,
 		Cylinder,
 		WobblyCylinder,
-		TwistingStar
+		TwistingStar,
+		Sphere
 	};
 	/// <summary>
 	/// List of instantiated points in the Graph.
@@ -317,6 +318,27 @@ public class Graph : MonoBehaviour
 		{
 			x = r * Mathf.Sin(Mathf.PI * u),
 			y = v,
+			z = r * Mathf.Cos(Mathf.PI * u)
+		};
+	}
+
+	/// <summary>
+	/// Create a 3D sphere from points on a graph
+	/// </summary>
+	/// <param name="u"></param>
+	/// <param name="v"></param>
+	/// <param name="t"></param>
+	/// <returns>
+	/// A Vector3 position for a point on a graph
+	/// </returns>
+	private static Vector3 Sphere(float u, float v, float t)
+	{
+		var r = Mathf.Cos(Mathf.PI * 0.5f * v);
+		
+		return new Vector3
+		{
+			x = r * Mathf.Sin(Mathf.PI * u),
+			y = Mathf.Sin(Mathf.PI * 0.5f * v),
 			z = r * Mathf.Cos(Mathf.PI * u)
 		};
 	}

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d115481f-4b77-4498-9296-6adef4246e3e" name="Default Changelist" comment="" />
+    <list default="true" id="d115481f-4b77-4498-9296-6adef4246e3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Graph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GraphFunctionName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GraphFunctionName.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,104 +16,51 @@
     <session id="-1925575981">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="11243" />
+          <entry key="cs" value="12348" />
           <entry key="shader" value="302" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="11243" />
+          <entry key="C#" value="12348" />
           <entry key="ShaderLab" value="302" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="9" />
+          <entry key="cs" value="10" />
           <entry key="shader" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="9" />
+          <entry key="C#" value="10" />
           <entry key="ShaderLab" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
-              <folding>
-                <marker date="1549434390735" expanded="true" signature="54:6752" ph="{...}" />
-                <marker date="1549434390735" expanded="false" signature="58:431" ph="Public Fields" />
-                <marker date="1549434390735" expanded="true" signature="82:170" ph="/// A primitive cube object used as a point in the Graph. ... " />
-                <marker date="1549434390735" expanded="true" signature="203:265" ph="/// The current Graph Function. ... " />
-                <marker date="1549434390735" expanded="true" signature="303:372" ph="/// The amount of Points in the Graph. ... " />
-                <marker date="1549434390735" expanded="false" signature="434:1088" ph="Private Fields" />
-                <marker date="1549434390735" expanded="true" signature="459:527" ph="/// List of available GraphFunctions. ... " />
-                <marker date="1549434390735" expanded="true" signature="587:738" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="741:817" ph="/// List of instantiated points in the Graph. ... " />
-                <marker date="1549434390735" expanded="true" signature="849:927" ph="/// The relative scale of a point in the graph. ... " />
-                <marker date="1549434390735" expanded="true" signature="959:1048" ph="/// The spacing between a point and the next in the graph. ... " />
-                <marker date="1549434390735" expanded="false" signature="1091:1834" ph="Unity Event Functions" />
-                <marker date="1549434390735" expanded="true" signature="1143:1494" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="1316:1491" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="1518:1821" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="1629:1818" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="1719:1814" ph="{...}" />
-                <marker date="1549434390735" expanded="false" signature="1837:6275" ph="2D Graph Functions" />
-                <marker date="1549434390735" expanded="true" signature="1865:2132" ph="/// Determine a sine wave value based on the X ... " />
-                <marker date="1549434390735" expanded="true" signature="2188:2281" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="2215:2277" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="2284:2552" ph="/// Determine a sine wave value based on a 2D matrix of values ... " />
-                <marker date="1549434390735" expanded="true" signature="2610:2706" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="2637:2703" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="2709:2990" ph="/// Determine a cross-sine wave vallue based on a 2D matrix of values ... " />
-                <marker date="1549434390735" expanded="true" signature="3053:3211" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="3173:3207" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="3214:3493" ph="/// Determine a multi-sine wave value based on the X ... " />
-                <marker date="1549434390735" expanded="true" signature="3554:4404" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="3560:4231" ph="/* The simplest way to add more complexity to a sine wave is to add ... */" />
-                <marker date="1549434390735" expanded="true" signature="4366:4400" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="4407:4697" ph="/// A main sine wave, with two smaller cross-waves for each dimensions. ... " />
-                <marker date="1549434390735" expanded="true" signature="4760:5148" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="5110:5144" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="5151:5409" ph="/// A main sine wave, with smaller waves inside. I don't even know. ... " />
-                <marker date="1549434390735" expanded="true" signature="5466:5687" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="5649:5683" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="5690:5975" ph="/// A ripple made of a sine wave. ... " />
-                <marker date="1549434390735" expanded="true" signature="6033:6262" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="6224:6258" ph="{...}" />
-                <marker date="1549434390735" expanded="false" signature="6278:6750" ph="3D Graph Functions" />
-                <marker date="1549434390735" expanded="true" signature="6307:6568" ph="/// Create a 3D Cylinder from points on a graph. ... " />
-                <marker date="1549434390735" expanded="true" signature="6628:6737" ph="{...}" />
-                <marker date="1549434390735" expanded="true" signature="6655:6733" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>PI</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/ColoredPoint.shader" root0="FORCE_HIGHLIGHTING" />
@@ -133,12 +84,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="427" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="853" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -156,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="grapfun&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;grap&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/Graph.cs&#10;graphfun&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunction.cs&#10;Grap&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;graph&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;shader&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Shaders/ColoredPoint.shader&#10;GraphFunc&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;grapfun&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;grap&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/Graph.cs&#10;graphfun&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunction.cs&#10;Grap&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;graph&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;shader&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Shaders/ColoredPoint.shader&#10;GraphFunc&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -202,11 +153,12 @@
       <workItem from="1549261771934" duration="281000" />
       <workItem from="1549340311727" duration="2333000" />
       <workItem from="1549430588118" duration="2501000" />
+      <workItem from="1549514464339" duration="2167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14068000" />
+    <option name="totallyTimeSpent" value="16235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,9 +171,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24907522" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24878837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -279,65 +230,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GraphFunctionName.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state>
           <folding>
-            <marker date="1549433758111" expanded="true" signature="29:120" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="54:7607" ph="{...}" />
+            <marker date="1549521252693" expanded="false" signature="58:431" ph="Public Fields" />
+            <marker date="1549521252693" expanded="true" signature="82:170" ph="/// A primitive cube object used as a point in the Graph. ... " />
+            <marker date="1549521252693" expanded="true" signature="203:265" ph="/// The current Graph Function. ... " />
+            <marker date="1549521252693" expanded="true" signature="303:372" ph="/// The amount of Points in the Graph. ... " />
+            <marker date="1549521252693" expanded="true" signature="434:1132" ph="Private Fields" />
+            <marker date="1549521252693" expanded="true" signature="459:527" ph="/// List of available GraphFunctions. ... " />
+            <marker date="1549521252693" expanded="true" signature="587:782" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="785:861" ph="/// List of instantiated points in the Graph. ... " />
+            <marker date="1549521252693" expanded="true" signature="893:971" ph="/// The relative scale of a point in the graph. ... " />
+            <marker date="1549521252693" expanded="true" signature="1003:1092" ph="/// The spacing between a point and the next in the graph. ... " />
+            <marker date="1549521252693" expanded="false" signature="1135:1878" ph="Unity Event Functions" />
+            <marker date="1549521252693" expanded="true" signature="1187:1538" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="1360:1535" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="1562:1865" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="1673:1862" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="1763:1858" ph="{...}" />
+            <marker date="1549521252693" expanded="false" signature="1881:5645" ph="2D Graph Functions" />
+            <marker date="1549521252693" expanded="true" signature="1909:2176" ph="/// Determine a sine wave value based on the X ... " />
+            <marker date="1549521252693" expanded="true" signature="2232:2325" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="2259:2321" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="2328:2596" ph="/// Determine a sine wave value based on a 2D matrix of values ... " />
+            <marker date="1549521252693" expanded="true" signature="2654:2750" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="2681:2747" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="2753:3034" ph="/// Determine a cross-sine wave vallue based on a 2D matrix of values ... " />
+            <marker date="1549521252693" expanded="true" signature="3097:3255" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="3217:3251" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="3258:3537" ph="/// Determine a multi-sine wave value based on the X ... " />
+            <marker date="1549521252693" expanded="true" signature="3598:3774" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="3736:3770" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="3777:4067" ph="/// A main sine wave, with two smaller cross-waves for each dimensions. ... " />
+            <marker date="1549521252693" expanded="true" signature="4130:4518" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="4480:4514" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="4521:4779" ph="/// A main sine wave, with smaller waves inside. I don't even know. ... " />
+            <marker date="1549521252693" expanded="true" signature="4836:5057" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="5019:5053" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="5060:5345" ph="/// A ripple made of a sine wave. ... " />
+            <marker date="1549521252693" expanded="true" signature="5403:5632" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="5594:5628" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="5648:7605" ph="3D Graph Functions" />
+            <marker date="1549521252693" expanded="true" signature="5677:5938" ph="/// Create a 3D Cylinder from points on a graph. ... " />
+            <marker date="1549521252693" expanded="true" signature="5998:6129" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="6039:6125" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="6132:6365" ph="/// Create a 3D 'Wobbly' Cylinder from points on a graph. ... " />
+            <marker date="1549521252693" expanded="true" signature="6431:6603" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="6513:6599" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="6606:6843" ph="/// Create a 3D Twisting Star cylinder from points on a graph ... " />
+            <marker date="1549521252693" expanded="true" signature="6907:7096" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="7006:7092" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="7099:7343" ph="/// Create a 3D sphere from points on a graph ... " />
+            <marker date="1549521252693" expanded="true" signature="7401:7592" ph="{...}" />
+            <marker date="1549521252693" expanded="true" signature="7473:7588" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GraphFunctionName.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <marker date="1549434390735" expanded="true" signature="54:6752" ph="{...}" />
-            <marker date="1549434390735" expanded="false" signature="58:431" ph="Public Fields" />
-            <marker date="1549434390735" expanded="true" signature="82:170" ph="/// A primitive cube object used as a point in the Graph. ... " />
-            <marker date="1549434390735" expanded="true" signature="203:265" ph="/// The current Graph Function. ... " />
-            <marker date="1549434390735" expanded="true" signature="303:372" ph="/// The amount of Points in the Graph. ... " />
-            <marker date="1549434390735" expanded="false" signature="434:1088" ph="Private Fields" />
-            <marker date="1549434390735" expanded="true" signature="459:527" ph="/// List of available GraphFunctions. ... " />
-            <marker date="1549434390735" expanded="true" signature="587:738" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="741:817" ph="/// List of instantiated points in the Graph. ... " />
-            <marker date="1549434390735" expanded="true" signature="849:927" ph="/// The relative scale of a point in the graph. ... " />
-            <marker date="1549434390735" expanded="true" signature="959:1048" ph="/// The spacing between a point and the next in the graph. ... " />
-            <marker date="1549434390735" expanded="false" signature="1091:1834" ph="Unity Event Functions" />
-            <marker date="1549434390735" expanded="true" signature="1143:1494" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="1316:1491" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="1518:1821" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="1629:1818" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="1719:1814" ph="{...}" />
-            <marker date="1549434390735" expanded="false" signature="1837:6275" ph="2D Graph Functions" />
-            <marker date="1549434390735" expanded="true" signature="1865:2132" ph="/// Determine a sine wave value based on the X ... " />
-            <marker date="1549434390735" expanded="true" signature="2188:2281" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="2215:2277" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="2284:2552" ph="/// Determine a sine wave value based on a 2D matrix of values ... " />
-            <marker date="1549434390735" expanded="true" signature="2610:2706" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="2637:2703" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="2709:2990" ph="/// Determine a cross-sine wave vallue based on a 2D matrix of values ... " />
-            <marker date="1549434390735" expanded="true" signature="3053:3211" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="3173:3207" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="3214:3493" ph="/// Determine a multi-sine wave value based on the X ... " />
-            <marker date="1549434390735" expanded="true" signature="3554:4404" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="3560:4231" ph="/* The simplest way to add more complexity to a sine wave is to add ... */" />
-            <marker date="1549434390735" expanded="true" signature="4366:4400" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="4407:4697" ph="/// A main sine wave, with two smaller cross-waves for each dimensions. ... " />
-            <marker date="1549434390735" expanded="true" signature="4760:5148" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="5110:5144" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="5151:5409" ph="/// A main sine wave, with smaller waves inside. I don't even know. ... " />
-            <marker date="1549434390735" expanded="true" signature="5466:5687" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="5649:5683" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="5690:5975" ph="/// A ripple made of a sine wave. ... " />
-            <marker date="1549434390735" expanded="true" signature="6033:6262" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="6224:6258" ph="{...}" />
-            <marker date="1549434390735" expanded="false" signature="6278:6750" ph="3D Graph Functions" />
-            <marker date="1549434390735" expanded="true" signature="6307:6568" ph="/// Create a 3D Cylinder from points on a graph. ... " />
-            <marker date="1549434390735" expanded="true" signature="6628:6737" ph="{...}" />
-            <marker date="1549434390735" expanded="true" signature="6655:6733" ph="{...}" />
+            <marker date="1549516635857" expanded="true" signature="29:161" ph="{...}" />
           </folding>
         </state>
       </provider>
