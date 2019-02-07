@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d115481f-4b77-4498-9296-6adef4246e3e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1925575981">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="11243" />
+          <entry key="shader" value="302" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="11243" />
+          <entry key="ShaderLab" value="302" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="9" />
+          <entry key="shader" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="9" />
+          <entry key="ShaderLab" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
+              <folding>
+                <marker date="1549434390735" expanded="true" signature="54:6752" ph="{...}" />
+                <marker date="1549434390735" expanded="false" signature="58:431" ph="Public Fields" />
+                <marker date="1549434390735" expanded="true" signature="82:170" ph="/// A primitive cube object used as a point in the Graph. ... " />
+                <marker date="1549434390735" expanded="true" signature="203:265" ph="/// The current Graph Function. ... " />
+                <marker date="1549434390735" expanded="true" signature="303:372" ph="/// The amount of Points in the Graph. ... " />
+                <marker date="1549434390735" expanded="false" signature="434:1088" ph="Private Fields" />
+                <marker date="1549434390735" expanded="true" signature="459:527" ph="/// List of available GraphFunctions. ... " />
+                <marker date="1549434390735" expanded="true" signature="587:738" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="741:817" ph="/// List of instantiated points in the Graph. ... " />
+                <marker date="1549434390735" expanded="true" signature="849:927" ph="/// The relative scale of a point in the graph. ... " />
+                <marker date="1549434390735" expanded="true" signature="959:1048" ph="/// The spacing between a point and the next in the graph. ... " />
+                <marker date="1549434390735" expanded="false" signature="1091:1834" ph="Unity Event Functions" />
+                <marker date="1549434390735" expanded="true" signature="1143:1494" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="1316:1491" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="1518:1821" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="1629:1818" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="1719:1814" ph="{...}" />
+                <marker date="1549434390735" expanded="false" signature="1837:6275" ph="2D Graph Functions" />
+                <marker date="1549434390735" expanded="true" signature="1865:2132" ph="/// Determine a sine wave value based on the X ... " />
+                <marker date="1549434390735" expanded="true" signature="2188:2281" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="2215:2277" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="2284:2552" ph="/// Determine a sine wave value based on a 2D matrix of values ... " />
+                <marker date="1549434390735" expanded="true" signature="2610:2706" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="2637:2703" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="2709:2990" ph="/// Determine a cross-sine wave vallue based on a 2D matrix of values ... " />
+                <marker date="1549434390735" expanded="true" signature="3053:3211" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="3173:3207" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="3214:3493" ph="/// Determine a multi-sine wave value based on the X ... " />
+                <marker date="1549434390735" expanded="true" signature="3554:4404" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="3560:4231" ph="/* The simplest way to add more complexity to a sine wave is to add ... */" />
+                <marker date="1549434390735" expanded="true" signature="4366:4400" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="4407:4697" ph="/// A main sine wave, with two smaller cross-waves for each dimensions. ... " />
+                <marker date="1549434390735" expanded="true" signature="4760:5148" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="5110:5144" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="5151:5409" ph="/// A main sine wave, with smaller waves inside. I don't even know. ... " />
+                <marker date="1549434390735" expanded="true" signature="5466:5687" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="5649:5683" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="5690:5975" ph="/// A ripple made of a sine wave. ... " />
+                <marker date="1549434390735" expanded="true" signature="6033:6262" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="6224:6258" ph="{...}" />
+                <marker date="1549434390735" expanded="false" signature="6278:6750" ph="3D Graph Functions" />
+                <marker date="1549434390735" expanded="true" signature="6307:6568" ph="/// Create a 3D Cylinder from points on a graph. ... " />
+                <marker date="1549434390735" expanded="true" signature="6628:6737" ph="{...}" />
+                <marker date="1549434390735" expanded="true" signature="6655:6733" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PI</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/ColoredPoint.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GraphFunctionName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GraphFunction.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Shaders/ColoredPoint.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GraphFunction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GraphFunctionName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graph.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="427" />
+    <option name="y" value="23" />
+    <option name="width" value="853" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="grapfun&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;grap&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/Graph.cs&#10;graphfun&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunction.cs&#10;Grap&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;graph&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Scripts/GraphFunctionName.cs&#10;shader&#9;FILE&#9;file:///Users/anichale/projects/Graph/Assets/Shaders/ColoredPoint.shader&#10;GraphFunc&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d115481f-4b77-4498-9296-6adef4246e3e" name="Default Changelist" comment="" />
+      <created>1549171007111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549171007111</updated>
+      <workItem from="1549171014016" duration="4484000" />
+      <workItem from="1549234989502" duration="4469000" />
+      <workItem from="1549261771934" duration="281000" />
+      <workItem from="1549340311727" duration="2333000" />
+      <workItem from="1549430588118" duration="2501000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14068000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24907522" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/ColoredPoint.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GraphFunction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GraphFunctionName.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <marker date="1549433758111" expanded="true" signature="29:120" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Graph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
+          <folding>
+            <marker date="1549434390735" expanded="true" signature="54:6752" ph="{...}" />
+            <marker date="1549434390735" expanded="false" signature="58:431" ph="Public Fields" />
+            <marker date="1549434390735" expanded="true" signature="82:170" ph="/// A primitive cube object used as a point in the Graph. ... " />
+            <marker date="1549434390735" expanded="true" signature="203:265" ph="/// The current Graph Function. ... " />
+            <marker date="1549434390735" expanded="true" signature="303:372" ph="/// The amount of Points in the Graph. ... " />
+            <marker date="1549434390735" expanded="false" signature="434:1088" ph="Private Fields" />
+            <marker date="1549434390735" expanded="true" signature="459:527" ph="/// List of available GraphFunctions. ... " />
+            <marker date="1549434390735" expanded="true" signature="587:738" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="741:817" ph="/// List of instantiated points in the Graph. ... " />
+            <marker date="1549434390735" expanded="true" signature="849:927" ph="/// The relative scale of a point in the graph. ... " />
+            <marker date="1549434390735" expanded="true" signature="959:1048" ph="/// The spacing between a point and the next in the graph. ... " />
+            <marker date="1549434390735" expanded="false" signature="1091:1834" ph="Unity Event Functions" />
+            <marker date="1549434390735" expanded="true" signature="1143:1494" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="1316:1491" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="1518:1821" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="1629:1818" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="1719:1814" ph="{...}" />
+            <marker date="1549434390735" expanded="false" signature="1837:6275" ph="2D Graph Functions" />
+            <marker date="1549434390735" expanded="true" signature="1865:2132" ph="/// Determine a sine wave value based on the X ... " />
+            <marker date="1549434390735" expanded="true" signature="2188:2281" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="2215:2277" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="2284:2552" ph="/// Determine a sine wave value based on a 2D matrix of values ... " />
+            <marker date="1549434390735" expanded="true" signature="2610:2706" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="2637:2703" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="2709:2990" ph="/// Determine a cross-sine wave vallue based on a 2D matrix of values ... " />
+            <marker date="1549434390735" expanded="true" signature="3053:3211" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="3173:3207" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="3214:3493" ph="/// Determine a multi-sine wave value based on the X ... " />
+            <marker date="1549434390735" expanded="true" signature="3554:4404" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="3560:4231" ph="/* The simplest way to add more complexity to a sine wave is to add ... */" />
+            <marker date="1549434390735" expanded="true" signature="4366:4400" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="4407:4697" ph="/// A main sine wave, with two smaller cross-waves for each dimensions. ... " />
+            <marker date="1549434390735" expanded="true" signature="4760:5148" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="5110:5144" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="5151:5409" ph="/// A main sine wave, with smaller waves inside. I don't even know. ... " />
+            <marker date="1549434390735" expanded="true" signature="5466:5687" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="5649:5683" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="5690:5975" ph="/// A ripple made of a sine wave. ... " />
+            <marker date="1549434390735" expanded="true" signature="6033:6262" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="6224:6258" ph="{...}" />
+            <marker date="1549434390735" expanded="false" signature="6278:6750" ph="3D Graph Functions" />
+            <marker date="1549434390735" expanded="true" signature="6307:6568" ph="/// Create a 3D Cylinder from points on a graph. ... " />
+            <marker date="1549434390735" expanded="true" signature="6628:6737" ph="{...}" />
+            <marker date="1549434390735" expanded="true" signature="6655:6733" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
