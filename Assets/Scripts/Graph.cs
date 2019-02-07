@@ -33,7 +33,8 @@ public class Graph : MonoBehaviour
 		MultiSine2DFunction,
 		RippleFunction,
 		WeirdFunction,
-		Cylinder
+		Cylinder,
+		WobblyCylinder
 	};
 	/// <summary>
 	/// List of instantiated points in the Graph.
@@ -268,11 +269,33 @@ public class Graph : MonoBehaviour
 	/// </returns>
 	private static Vector3 Cylinder(float u, float v, float t)
 	{
+		var r = 1f;
 		return new Vector3
 		{
-			x = Mathf.Sin(Mathf.PI * u),
+			x = r * Mathf.Sin(Mathf.PI * u),
 			y = v,
-			z = Mathf.Cos(Mathf.PI * u)
+			z = r * Mathf.Cos(Mathf.PI * u)
+		};
+	}
+
+	/// <summary>
+	/// Create a 3D 'Wobbly' Cylinder from points on a graph.
+	/// </summary>
+	/// <param name="u"></param>
+	/// <param name="v"></param>
+	/// <param name="t"></param>
+	/// <returns>
+	/// a Vector3 position
+	/// </returns>
+	private static Vector3 WobblyCylinder(float u, float v, float t)
+	{
+		var r = 1f + Mathf.Sin(6f * Mathf.PI * u) * 0.2f;
+		
+		return new Vector3
+		{
+			x = r * Mathf.Sin(Mathf.PI * u),
+			y = v,
+			z = r * Mathf.Cos(Mathf.PI * u)
 		};
 	}
 

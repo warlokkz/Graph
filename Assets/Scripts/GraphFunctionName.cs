@@ -7,5 +7,6 @@
 	MultiSine2D,
 	Ripple,
 	WeirdWave,
-	Cylinder
+	Cylinder,
+	WobblyCylinder
 }
