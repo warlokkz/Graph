@@ -8,5 +8,6 @@
 	Ripple,
 	WeirdWave,
 	Cylinder,
-	WobblyCylinder
+	WobblyCylinder,
+	TwistingStar
 }
