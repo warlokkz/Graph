@@ -36,7 +36,8 @@ public class Graph : MonoBehaviour
 		Cylinder,
 		WobblyCylinder,
 		TwistingStar,
-		Sphere
+		Sphere,
+		AnimatedSphere
 	};
 	/// <summary>
 	/// List of instantiated points in the Graph.
@@ -340,6 +341,35 @@ public class Graph : MonoBehaviour
 			x = r * Mathf.Sin(Mathf.PI * u),
 			y = Mathf.Sin(Mathf.PI * 0.5f * v),
 			z = r * Mathf.Cos(Mathf.PI * u)
+		};
+	}
+
+	/// <summary>
+	/// Create a 3D Sphere with an animating radius from points on a graph
+	/// Radius of the sphere has two separate sine waves for u and v. 
+	/// </summary>
+	/// <param name="u"></param>
+	/// <param name="v"></param>
+	/// <param name="t"></param>
+	/// <returns>
+	/// A Vector3 position for a point on a graph
+	/// </returns>
+	private static Vector3 AnimatedSphere(float u, float v, float t)
+	{
+		// R = 4/5 + sin(π(4v + t))/10
+		var r = 0.8f;
+		// u sine wave :: sin(π(6u + t))/10
+		r += Mathf.Sin(Mathf.PI * (6f * u + t)) * 0.1f;
+		// v sine wave :: sin(π(4v + t))/10
+		r += Mathf.Sin(Mathf.PI * (4f * v + t)) * 0.1f;
+
+		var s = r * Mathf.Cos(Mathf.PI * 0.5f * v);
+
+		return new Vector3
+		{
+			x = s * Mathf.Sin(Mathf.PI * u),
+			y = r * Mathf.Sin(0.5f * (Mathf.PI * v)),
+			z = s * Mathf.Cos(Mathf.PI * u)
 		};
 	}
 

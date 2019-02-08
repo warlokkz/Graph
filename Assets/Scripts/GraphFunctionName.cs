@@ -10,5 +10,6 @@
 	Cylinder,
 	WobblyCylinder,
 	TwistingStar,
-	Sphere
+	Sphere,
+	AnimatedSphere
 }
