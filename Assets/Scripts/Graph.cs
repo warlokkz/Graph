@@ -5,6 +5,14 @@ public class Graph : MonoBehaviour
 	#region Public Fields
 
 	/// <summary>
+	/// List of available materials to assign to points.
+	/// </summary>
+	public Material[] PointMaterials;
+	/// <summary>
+	/// The currently selected Point Material.
+	/// </summary>
+	public PointMaterial ChosenMaterial;
+	/// <summary>
 	/// A primitive cube object used as a point in the Graph.
 	/// </summary>
 	public Transform PointPrefab;
@@ -37,7 +45,9 @@ public class Graph : MonoBehaviour
 		WobblyCylinder,
 		TwistingStar,
 		Sphere,
-		AnimatedSphere
+		AnimatedSphere,
+		Torus,
+		Heart
 	};
 	/// <summary>
 	/// List of instantiated points in the Graph.
@@ -58,6 +68,7 @@ public class Graph : MonoBehaviour
 
 	private void Awake()
 	{
+		var pointMaterial = PointMaterials[(int)ChosenMaterial];
 		_points = new Transform[Resolution * Resolution];
 		_pointStep = 2f / Resolution;
 		_pointScale = Vector3.one * _pointStep;
@@ -65,6 +76,8 @@ public class Graph : MonoBehaviour
 		for (var i = 0; i < _points.Length; i++)
 		{
 				Transform point = Instantiate(PointPrefab);
+				MeshRenderer renderer = point.GetComponent<MeshRenderer>();
+				renderer.material = pointMaterial;
 				point.localScale = _pointScale;
 				point.SetParent(transform, worldPositionStays: false);
 				_points[i] = point;
@@ -370,6 +383,68 @@ public class Graph : MonoBehaviour
 			x = s * Mathf.Sin(Mathf.PI * u),
 			y = r * Mathf.Sin(0.5f * (Mathf.PI * v)),
 			z = s * Mathf.Cos(Mathf.PI * u)
+		};
+	}
+
+	/// <summary>
+	/// Create a 3D animating Torus from points on a graph
+	/// </summary>
+	/// <param name="u"></param>
+	/// <param name="v"></param>
+	/// <param name="t"></param>
+	/// <returns>
+	/// A Vector3 position of a point
+	/// </returns>
+	private static Vector3 Torus(float u, float v, float t)
+	{
+		var r1 = 0.65f + Mathf.Sin(Mathf.PI * (6f * u + t)) * 0.1f;
+		var r2 = 0.2f + Mathf.Sin(Mathf.PI * (4f * v + t)) * 0.05f;
+		var s = r2 * Mathf.Cos(Mathf.PI * v) + r1;
+		return new Vector3
+		{
+			x = s * Mathf.Sin(Mathf.PI * u),
+			y = r2 * Mathf.Sin(Mathf.PI * v),
+			z = s * Mathf.Cos(Mathf.PI * u)
+		};
+	}
+
+	/// <summary>
+	/// Create a 3D Heart from points on a graph
+	/// </summary>
+	/// <param name="u"></param>
+	/// <param name="v"></param>
+	/// <param name="t"></param>
+	/// <returns>
+	/// A Vector3 position for a point
+	/// </returns>
+	private static Vector3 Heart(float u, float v, float t)
+	{
+		// Magic Sine Wave radius
+		var r = 0.5f +
+		        Mathf.Sin(Mathf.PI * (0.2f * u + t)) * 0.1f +
+		        Mathf.Sin(Mathf.PI * (0.1f * v + t)) * 0.1f;
+
+		var s = r * Mathf.Cos(Mathf.PI * 0.5f * v);
+
+		var x = s * Mathf.Sin(Mathf.PI * u);
+		var y = Mathf.Sin(Mathf.PI * 0.5f * v);
+		var z = s * Mathf.Cos(Mathf.PI * u);
+		
+		// z = z(2 - y/15)
+		z = z / (2f - y / 40f);
+		// y = 1.2y - |x| sqrt(30 - |x| / 40)
+		y += -0.225f * y +
+		     Mathf.Abs(x) *
+		     Mathf.Sqrt(
+			     (30 - Mathf.Abs(x))
+			     * 0.025f
+		     );
+
+		return new Vector3
+		{
+			x = x,
+			y = y,
+			z = z
 		};
 	}
 

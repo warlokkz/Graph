@@ -11,5 +11,7 @@
 	WobblyCylinder,
 	TwistingStar,
 	Sphere,
-	AnimatedSphere
+	AnimatedSphere,
+	Torus,
+	Heart
 }
