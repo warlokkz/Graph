@@ -430,6 +430,7 @@ public class Graph : MonoBehaviour
 		var y = Mathf.Sin(Mathf.PI * 0.5f * v);
 		var z = s * Mathf.Cos(Mathf.PI * u);
 		
+		// Inspired by iq
 		// z = z(2 - y/15)
 		z = z / (2f - y / 40f);
 		// y = 1.2y - |x| sqrt(30 - |x| / 40)

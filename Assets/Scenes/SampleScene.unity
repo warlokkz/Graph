@@ -303,6 +303,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ca78b8e1a2a48fe9c4ad395fa6298b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PointMaterials:
+  - {fileID: 2100000, guid: 2a13be2fa20b7409d8306321b04c31d2, type: 2}
+  - {fileID: 2100000, guid: b93820f04bd1f4af2a55bfe50f24e344, type: 2}
+  ChosenMaterial: 1
   PointPrefab: {fileID: 7545658798830263434, guid: e2124691258864da1b8e9140806de2c0,
     type: 3}
   Function: 13
